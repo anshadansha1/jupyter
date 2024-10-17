@@ -1,0 +1,6 @@
+CODE TO BE PASTED AT THE END OF YOUR CONFIG FILE (httpd.conf) :
+<Directory "C:/wamp64/www/CGI">
+    Options +ExecCGI
+    AddHandler cgi-script .py
+    DirectoryIndex index.py
+</Directory>
